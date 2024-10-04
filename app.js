@@ -52,5 +52,5 @@ app.get('/api/data', (req, res) => {
 
 // Inicializa o servidor na porta 8080
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor em funcionamento no link de acesso: http://localhost:${port}`);
 });
